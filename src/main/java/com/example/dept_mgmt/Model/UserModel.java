@@ -13,7 +13,6 @@ public class UserModel {
     private String email;
     private String password;
     private String role;
-    private String roletest;
 
     @ManyToOne
     @JoinColumn( name = "department_id", referencedColumnName = "id")
